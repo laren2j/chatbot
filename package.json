@@ -1,0 +1,30 @@
+{
+  "name": "dialogflow",
+  "version": "1.0.0",
+  "description": "A demo chatbot using Google's DialogFlow",
+  "main": "server.js",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laren2j/Chatbot.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "Lionel Aaron Dsouza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laren2j/Chatbot/issues"
+  },
+  "homepage": "https://github.com/laren2j/Chatbot#readme"
+}
