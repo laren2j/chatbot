@@ -29,6 +29,7 @@ app.get('/', function(req, res) {
 // DialogFlow API(accessed at POST http://localhost:8080/api/)
 app.post('/api/', function(req, res) {
     const msg = req.body.msg;
+    
     chat.textRequest(msg, {
         sessionId: process.env.DEVELOPER_ACCESS_TOKEN
     }).on('response', function(response) {
