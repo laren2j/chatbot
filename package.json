@@ -6,7 +6,7 @@
   "dependencies": {
     "apiai": "^4.0.3",
     "body-parser": "^1.18.2",
-    "dotenv": "^4.0.0",
+    "dotenv": "^9.0.2",
     "express": "^4.16.1",
     "mongoose": "^4.12.1"
   },
